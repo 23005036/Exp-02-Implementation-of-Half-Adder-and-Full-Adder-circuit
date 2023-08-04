@@ -54,9 +54,13 @@ Sum =A’B’C + A’BC’ + ABC + AB’C’ = A ⊕ B ⊕ C Carry = AB + AC + B
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
 HALF ADDER:
+
+
 <img width="402" alt="halfadder program" src="https://github.com/23005036/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/140035214/2fbd886e-edcc-440d-b812-24c1e7e58d0a">
 
 FULL ADDER:
+
+
 <img width="361" alt="fulladder program" src="https://github.com/23005036/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/140035214/a51be7a5-2942-48f1-8819-3a8e5ca8ee78">
 
 #### HALF ADDER
@@ -74,16 +78,27 @@ and(carry,a,b);
 endmodule 
 
 RTL realization:
+
+
 half adder:
+
+
 <img width="364" alt="halfadder rtl" src="https://github.com/23005036/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/140035214/18f28ed6-d0f2-473a-957b-2fe4646062e5">
 
 truth table:
+
+
 ![halfadder](https://github.com/23005036/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/140035214/4f60c7fa-3357-4c4a-965d-8511be5e4599)
 
 
 timing diagram:
+
 half adder:
+
+
 ![image](https://github.com/23005036/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/140035214/3612712b-06f3-4c2c-a857-de996ca66697)
+
+
 
 FULL ADDER
 
@@ -101,12 +116,18 @@ endmodule
 
 RTL Realization:
 full adder
+
+
  <img width="335" alt="fulladder rtl" src="https://github.com/23005036/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/140035214/e99ebfb1-2de7-4250-b1ee-d1825ec45b86">
 
 Truth table: full adder
+
+
 ![fulladder](https://github.com/23005036/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/140035214/1878f6a5-56ea-449c-a9ec-fa5414b58381)
 
 Timing diagram: full adder
+
+
 <img width="545" alt="fulladder waveform" src="https://github.com/23005036/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/140035214/8ba2e701-3ffa-4663-ac8b-5738d39a41fd">
 
 RESULT:
